@@ -2,21 +2,6 @@
 
 Реализация проекта Maze.
 
-## Contents
-
-1. [Chapter I](#chapter-i) \
-    1.1. [Introduction](#introduction)
-2. [Chapter II](#chapter-ii) \
-    2.1. [Information](#information)
-3. [Chapter III](#chapter-iii) \
-    3.1. [Part 1](#part-1-реализация-проекта-maze) \
-    3.2. [Part 2](#part-2-генерация-идеального-лабиринта) \
-    3.3. [Part 3](#part-3-решение-лабиринта) \
-    3.4. [Part 4](#part-4-дополнительно-генерация-пещер) \
-    3.5. [Part 5](#part-5-дополнительно-ml-обучение-с-подкреплением) \
-    3.6. [Part 6](#part-6-дополнительно-web-интерфейс) 
-
-
 
 ## Information
 
