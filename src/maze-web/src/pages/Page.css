@@ -1,0 +1,12 @@
+.page {
+    display: flex;
+    max-width: 100%;
+    height: min-content;
+    min-width: 1000px;
+    padding: 50px 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px  black;
+}

@@ -1,0 +1,27 @@
+.control-pane__form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap:2px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.control-pane__form-header {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    padding: 2px;
+}
+
+.control-pane__form-label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-pane__form-input {
+    max-width: 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

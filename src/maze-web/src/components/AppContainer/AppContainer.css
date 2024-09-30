@@ -1,0 +1,44 @@
+.app-container {
+    display: flex;
+    max-width: 100%;
+    height: min-content;
+    min-width: 1000px;
+    padding: 50px 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px  black;
+}
+
+.control-pane-container {
+    display: flex;
+    align-self: self-start;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.control-pane-container__form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    gap: 10px;
+}
+
+.control-pane-container__form-hidden-input {
+    display: none;
+}
+
+.control-pane-container__button_active {
+    background-color: rgb(196, 236, 196);
+    
+}
+
+.error-message-container {
+    background-color: white;
+    color: red;
+    text-align: center;
+}

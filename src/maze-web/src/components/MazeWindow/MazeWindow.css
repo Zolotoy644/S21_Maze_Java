@@ -1,0 +1,49 @@
+.maze-window {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+.maze__square {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: stretch;
+    position: relative;
+    z-index: 1;
+}
+
+.maze__bottom-border::before {
+    content: '';
+    position: absolute;
+    top: 0px; left: 0px; right: 0px; bottom: 0px;
+    border-bottom: 2px solid black; /* Смещенная граница */
+    z-index: -1;
+}
+
+.maze__right-border::before {
+    content: '';
+    position: absolute;
+    top: 0px; left: 0px; right: 0px; bottom: 0px;
+    border-right: 2px solid black; /* Смещенная граница */
+    z-index: -1;
+}
+
+.maze__square:hover {
+    background-color: lightblue;
+}
+
+.maze-window__route-item {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.maze-window__route-item_border-bottom {
+    border-bottom: 2px solid blue;
+}
+
+.maze-window__route-item_border-right {
+    border-right: 2px solid blue;
+}
